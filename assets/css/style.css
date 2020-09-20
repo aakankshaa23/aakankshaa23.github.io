@@ -594,7 +594,7 @@ a.icon-up-bg:hover {color: #212121;}
   .intro .intro-content {
     text-align: center;
     /* position: absolute; */
-    z-index: 100;
+    z-index: 2;
   }
   
   .intro .overlay-itro {
@@ -653,3 +653,12 @@ a.icon-up-bg:hover {color: #212121;}
   .intro-single .breadcrumb a {
     color: #fff;
   }
+  .navbar-toggle .icon-bar{
+    background-color: #fff !important;
+  }
+
+@media only screen and (max-width:560px){
+    .intro-title{
+        font-size: 2rem !important;
+    }
+}
